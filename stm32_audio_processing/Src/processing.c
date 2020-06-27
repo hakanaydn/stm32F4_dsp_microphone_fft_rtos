@@ -4,6 +4,7 @@
 #include <math.h>
 #include "arm_math.h"
 #include "microphone.h"
+#include "stdio.h"
 
 #define FFT_Length_Tab 1024
 #define FFT_INVERSE_FLAG        ((uint8_t)0)
@@ -50,6 +51,8 @@ void signalProcTask(void const * argument)
 				arm_max_q15(FFT_Output_Q15, FFT_Length_Tab, &maxValue, &maxIndex);
 				
 				res = katsayi*maxIndex;
+				
+				printf("FREQUENCY : %f \r\n",res);
 
 				TimerCount_Stop(nb_cycles);
 				duration_us = (uint32_t)(((uint64_t)US_IN_SECOND * (nb_cycles)) / SystemCoreClock);

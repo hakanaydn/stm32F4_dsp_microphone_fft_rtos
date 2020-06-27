@@ -62,3 +62,4 @@ stm32_audio_processing\processing.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.
 stm32_audio_processing\processing.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 stm32_audio_processing\processing.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\arm_math.h
 stm32_audio_processing\processing.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm4.h
+stm32_audio_processing\processing.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

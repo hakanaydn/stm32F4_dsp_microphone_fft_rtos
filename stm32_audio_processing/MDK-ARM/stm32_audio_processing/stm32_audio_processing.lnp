@@ -42,6 +42,7 @@
 "..\Middlewares\STM32_Audio\Addons\PDM\Lib\libPDMFilter_CM4_Keil_wc16.lib"
 "stm32_audio_processing\processing.o"
 "C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
+"stm32_audio_processing\retarget_io.o"
 --library_type=microlib --strict --scatter "stm32_audio_processing\stm32_audio_processing.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
