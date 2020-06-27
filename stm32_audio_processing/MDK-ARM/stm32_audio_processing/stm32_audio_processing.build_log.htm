@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: hakan Microsoft, Microsoft, LIC=R4HKP-MNLJI-XA9DC-7RX55-AUNXI-A245M
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DCM.DLL V1.13.4.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+C:\Users\HAKANAYDIN\Desktop\stm32_audio_processing\MDK-ARM\stm32_audio_processing.uvprojx
+Project File Date:  06/16/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'stm32_audio_processing'
+compiling microphone.c...
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h(68): warning:  #47-D: incompatible redefinition of macro "__FPU_PRESENT"
+  #define __FPU_PRESENT             1U       /*!< FPU present                                   */
+../Inc/microphone.h(91): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Inc/processing.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Inc/microphone.h(83): warning:  #1295-D: Deprecated declaration AUDIO_IN_ClockConfig - give arg types
+  void AUDIO_IN_ClockConfig();
+../Inc/microphone.h(86): warning:  #1295-D: Deprecated declaration AUDIO_IN_Init - give arg types
+  struct AudioIn * AUDIO_IN_Init();
+../Inc/microphone.h(91): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Src\microphone.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=28576 RO-data=15192 RW-data=1204 ZI-data=47692  
+FromELF: creating hex file...
+"stm32_audio_processing\stm32_audio_processing.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.0-Beta4.pack
+                ARM::CMSIS:CORE:5.0.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.0
+   * Component: DSP Version: 1.4.6
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\HAKANAYDIN\Desktop\stm32_audio_processing\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.0
+
+   * Component: ARM::CMSIS:DSP:1.4.6
+      Include file:  CMSIS\Include\arm_math.h
+      Library file:  CMSIS\Lib\ARM\arm_cortexM4lf_math.lib
+Build Time Elapsed:  00:00:18
+</pre>
+</body>
+</html>
